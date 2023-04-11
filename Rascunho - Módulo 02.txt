@@ -1,0 +1,75 @@
+ height: Altura
+width: Largura
+border: Borda (Linha que circunda o conteudo)
+padding: Preenchimento
+margin: Margem
+outline: Contorno (fora do elemento)
+<div>: box-level (quebrar linha)
+<span>: inline-level (não quebra linha)
+
+
+	.box-level
+
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+	.inline-level
+
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>
+
+	shorthands
+
+border: (width) (style) (color);
+border: 10px solid red;
+
+padding: (top) (right) (bottom) (left);
+padding: 10px 10px 10px 10px;
+padding: 10px; (se aplicar apenas um valor, ele aplica para os
+		lados)
+padding: 10px 20px; (se aplicar dois valores ele colocar o primeiro
+		     em top e bottom (10px) e o segundo em left e
+		     right (20px)).
+padding: 10px auto 10px auto; (Mudando apenas left e right para auto
+			      a página centraliza automaticamente)
+
+box-sizing é a width e height (altura e largura da página)
+
+display: block; (box-level)
+display: in-line; (inline-level)
+
+<header></header>	Cabeçalho
+<main></main>		conteudo principal
+<footer></footer>	rodapé
+<section></section>	seção
+<nav></nav>		seção com links de navegação
+<article></article>	artigo
+
+box-shadow: 1px 1px 1px black;	(dev tools)
+
+border-radius: 1px; (Raio da borda, basicamente arredonda a borda)
+border-top-left-radius: 1px;
+border-top-right-radius: 1px;
+border-bottom-left-radius: 1px;
+border-bottom-right-radius: 1px;
+
+
+

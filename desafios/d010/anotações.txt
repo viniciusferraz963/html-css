@@ -1,0 +1,113 @@
+- Planejamento de website
+	.Para o planejamento podemos fazer o uso da plataforma mockflow.com
+para desenhar um rascunho(warframe), do projeto para ficar mais realista.
+
+1ºLayout (mockflow)
+2ºCores (color.adobe.com)
+3ºFontes (fontes.google) (dafonte)
+4ºEmoji (emojipedia)
+
+- Desenvolvendo HTML
+	.Para desenvolver tem algumas tags que preciso me atentar, para
+que o código fique limpo e fluido para entendedores.
+
+header: cabeçalho
+main: conteudo principal
+footer: rodapé
+nav: seção com links de navegação
+article: artigo
+figure: inserção de imagens
+a: descreva um link
+em : visa destacar alguma parte do texto com maior relevância
+strong: destaca em negrito
+cite: é utilizado para declarar quando há uma citação. 
+q: também é para citação.
+
+- Conectar as pastar e o favicon abaixo da tag Title com a tag Link favicon
+e link CSS
+
+Style: @charset "UTF-8" (responsividade para traços em PT-BR)
+
+CTRL+P + >wrap (Envelopamento), muito util para organizar o conteúdo.
+
+aabr: demarca um item mostrando outro nome ao passar o mouse
+target _blank: Abre a página em outra aba
+
+- Declarando Variáveis
+	.Ao declarar uma variável deve-se iniciar com dois traços e abrir
+chaves com root. EX:
+
+:root {
+	--cor0: #544s2s12;
+}
+
+OBS: Interessante o uso das variáveis porque são aplicaveis a muitos topicos
+como as fontes 
+
+:root {
+	--fonte-padrao: Arial;
+}
+
+- @font-face {}
+	.Utilizado para incluir fontes externas e internas no CSS
+
+- Comando de forma global
+	.Com o * {} podemos manipular de forma geral o conteúdo da folha
+logo de começo. margin: 0px; e padding: 0px;
+
+- Responsividade 
+	width: ; (define a largura do site)
+	margin: auto; (Automaticamente centraliza o conteudo)
+	min-width: ; (valor minimo de largura)
+	max-width: ; (valor maximo de largura)
+	
+img: 100%; (fica responsivel ao tamanho de 100% da tela)
+margin: auto; (Fica responsivel a 100% da width)
+padding: auto; (Fica responsivel a 100% da width)
+	
+	A tag <source media="(max-width:800px)" srcset="imagens/irina-block-pq.jpg">
+tem como função colocar uma imagens menor quando certo tamanho, pré-selecionado por mim
+mude.
+
+- Configurando header	
+	text-align (coloca os itens no centro)
+	min-height (altura minima)
+	max-height (altura maxima)
+
+- degrade background-image: linear-gradient (to bottom, cor, cor);
+	A primeira cor começara de baixo e passara pra cima gradualmente
+
+- duração de animação encima das letras
+	transition-duration: 0.5s; (faz com que tenha uma animação ao
+passar com o mouse por cima)
+	
+- decoração de texto
+	text-decoration: none; (tirou a a barra de sublinhado de baixo
+do texto)
+
+- paragrafo
+	text-indent: 30px; (Deixa um paragrafo na primeira linha)
+	line-height: 1em; (Espaçamento entre linhas)
+
+		
+- Lista ordenada
+	list-style-position: inside; (coloca as bolinhas da lista para
+dentro da caixa)
+	columns: 0 a 10; (Aumenta o numero de colunas na lista)
+	list-style-type: \; (Barra invertida e numeração para acrescentar
+um emoji pelo emojipedia)
+	Código \00A0 acrescenta um espaço no código (Não é compativel com todo
+navegar, então é melhor evitar)
+
+- video (geral)
+	position: relative;
+
+- video > iframe
+	position: absolute; (Ativando top, left, right, bottom,
+width e height)
+	
+
+
+
+
+
