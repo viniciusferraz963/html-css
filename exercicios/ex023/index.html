@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: lightgreen;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.dado {
+            background-color: aquamarine;
+        }
+
+        td.dado1 {
+            background-color: yellow;
+        }
+
+        td.dado2 {
+            background-color: peru;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
+    <!--
+        Hierarquia de tabelas (Simples)
+        Table = tabela
+            Table Row = Linha de tabela
+                Table header = Cabeçalho da tabela
+                Table data = Dado de Tabela
+
+        OBS: A W3C, sugere que não é necessario o fechamento de tag Para Tr's e Td's, porem, para evitar futuras dores de cabeça, sempre usar o fechamento que não afetará em nada e visivelmente fica mais organizado.
+    -->
+    <table>
+        <tr class="linha"> <!--Primeira Linha-->
+            <td>A1</td> <!--Celulas-->
+            <td>B1</td> <!--Por dentro o Conteúdo-->
+            <td>C1</td>
+        </tr>
+
+        <tr>
+            <td class="dado">A2</td>
+            <td class="dado1">B2</td>
+            <td class="dado2">C2</td>
+        </tr>
+
+        <tr>
+            <td class="dado1">A3</td>
+            <td class="dado">B3</td>
+            <td class="dado2">C3</td>
+        </tr>
+
+        <tr>
+            <td class="dado1">A4</td>
+            <td class="dado2">B4</td>
+            <td class="dado">C4</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>B5</td>
+            <td class="dado1">C5</td>
+        </tr>
+    </table>
 </body>
 </html>
